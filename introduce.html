@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GIỚI THIỆU</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Roboto:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+
+        <!-- AOSS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./assets/css/index.css" />
+        <link rel="stylesheet" href="./assets/css/slider.css" />
+        <link rel="stylesheet" href="./assets/css/header.css" />
+        <link rel="stylesheet" href="./assets/css/introduce.css" />
+        <link rel="stylesheet" href="./assets/css/footer.css" />
+    </head>
+    <body>
+        <div id="ifa">
+            <!-- Header -->
+            <div class="header">
+                <div class="container">
+                    <div
+                        class="d-flex d-lg-none header_mobile justify-content-between align-items-center py-4"
+                    >
+                        <div
+                            class="header_mobile_bars"
+                            data-bs-toggle="offcanvas"
+                            href="#offcanvasExample"
+                            role="button"
+                            aria-controls="offcanvasExample"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"
+                            >
+                                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM64 256C64 238.3 78.33 224 96 224H480C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480 288H96C78.33 288 64 273.7 64 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"
+                                />
+                            </svg>
+                        </div>
+
+                        <div
+                            class="offcanvas offcanvas-start"
+                            tabindex="-1"
+                            id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel"
+                        >
+                            <div class="offcanvas-header">
+                                <div
+                                    class="offcanvas-title"
+                                    id="offcanvasExampleLabel"
+                                >
+                                    <img src="./assets/image/logo.png" />
+                                </div>
+                                <button
+                                    type="button"
+                                    class="btn-close text-reset"
+                                    data-bs-dismiss="offcanvas"
+                                    aria-label="Close"
+                                ></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="navbar navbar-expand-lg bg-light">
+                                    <nav class="w-100">
+                                        <ul
+                                            class="navbar-nav me-auto d-flex justify-content-between w-100"
+                                        >
+                                            <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    Trang chủ
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    Giới thiệu
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    Đào tạo
+                                                </a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    Tư vấn
+                                                </a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    Giảng viên
+                                                </a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    Học viên
+                                                </a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    Hoạt động
+                                                </a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    Góc nhìn chuyên gia
+                                                </a>
+                                            </li>
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    Liên hệ
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img
+                            src="./assets/image/logo.png"
+                            class="img-fluid header_mobile_logo"
+                            alt="Image Logo"
+                        />
+                        <div class="search_mobile">
+                            <svg
+                                fill="#000000"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 30 30"
+                                width="30px"
+                                height="30px"
+                            >
+                                <path
+                                    d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"
+                                ></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div
+                        class="d-none d-lg-block"
+                        data-aos="fade-down-right"
+                        data-aos-duration="500"
+                    >
+                        <div class="row">
+                            <div class="navbar navbar-expand-lg bg-light">
+                                <div class="container-fluid">
+                                    <button
+                                        class="navbar-toggler"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent"
+                                        aria-controls="navbarSupportedContent"
+                                        aria-expanded="false"
+                                        aria-label="Toggle navigation"
+                                    >
+                                        <span
+                                            class="navbar-toggler-icon"
+                                        ></span>
+                                    </button>
+                                    <div
+                                        class="collapse navbar-collapse"
+                                        id="navbarSupportedContent"
+                                    >
+                                        <div
+                                            class="col col-1 header_img_scoll px-4"
+                                        >
+                                            <a href="#" class="">
+                                                <img
+                                                    src="./assets/image/logo_1.png"
+                                                    class=""
+                                                    alt="Image Logo"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="col col-5">
+                                            <ul
+                                                class="navbar-nav me-auto d-flex justify-content-between align-items-center"
+                                            >
+                                                <li class="nav-item active">
+                                                    <a
+                                                        href="#"
+                                                        class="nav-link"
+                                                        aria-current="page"
+                                                    >
+                                                        Trang chủ
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        href="#"
+                                                        class="nav-link"
+                                                    >
+                                                        Giới thiệu
+                                                        <!-- <IconDown /> -->
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        href="#"
+                                                        class="nav-link"
+                                                    >
+                                                        Đào tạo
+                                                        <!-- <IconDown /> -->
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        href="#"
+                                                        class="nav-link"
+                                                    >
+                                                        Tư vấn
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        href="#"
+                                                        class="nav-link"
+                                                    >
+                                                        Giảng viên
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col col-2 header_img px-5">
+                                            <a href="#" class="">
+                                                <img
+                                                    src="./assets/image/logo.png"
+                                                    class="img-fluid"
+                                                    alt="Image Logo"
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="col col-5">
+                                            <ul
+                                                class="navbar-nav me-auto d-flex justify-content-between align-items-center"
+                                            >
+                                                <li class="nav-item">
+                                                    <a
+                                                        href="#"
+                                                        class="nav-link"
+                                                    >
+                                                        Học viên
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a
+                                                        href="#"
+                                                        class="nav-link"
+                                                    >
+                                                        Hoạt động
+                                                    </a>
+                                                </li>
+
+                                                <li
+                                                    class="nav-item nav-item-flex"
+                                                >
+                                                    <a
+                                                        href="#"
+                                                        class="nav-link"
+                                                    >
+                                                        Góc nhìn chuyên gia
+                                                    </a>
+                                                </li>
+
+                                                <li class="nav-item">
+                                                    <a
+                                                        href="#"
+                                                        class="nav-link"
+                                                    >
+                                                        Liên hệ
+                                                    </a>
+                                                </li>
+
+                                                <div class="search">
+                                                    <svg
+                                                        fill="#000000"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                        viewBox="0 0 30 30"
+                                                        width="30px"
+                                                        height="30px"
+                                                    >
+                                                        <path
+                                                            d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"
+                                                        />
+                                                    </svg>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main -->
+            <main>
+                <div id="main">
+                    <!-- Slider -->
+                    <div class="slider">
+                        <div
+                            id="carouselExampleIndicators"
+                            class="carousel slide"
+                            data-bs-ride="carousel"
+                        >
+                            <div class="carousel-indicators">
+                                <div
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-current="true"
+                                    aria-label="Slide 1"
+                                >
+                                    <!-- <div class="carousel-indicators_line"></div> -->
+                                    <p class="carousel-indicators_num">01</p>
+                                </div>
+                                <div
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"
+                                >
+                                    <p class="carousel-indicators_num">02</p>
+                                </div>
+                                <div
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"
+                                >
+                                    <p class="carousel-indicators_num">03</p>
+                                </div>
+                                <div
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="3"
+                                    aria-label="Slide 4"
+                                >
+                                    <p class="carousel-indicators_num">04</p>
+                                </div>
+                            </div>
+                            <div class="carousel-inner">
+                                <div
+                                    class="carousel-item active"
+                                    data-bs-interval="4000"
+                                >
+                                    <img
+                                        className="d-block w-100"
+                                        src="./assets/image/home/slider/image_1.png"
+                                        alt="First slide"
+                                    />
+                                    <div
+                                        class="carousel-caption d-none d-md-block"
+                                    >
+                                        <div class="container">
+                                            <div class="silder_content">
+                                                <img
+                                                    src="./assets/image/home/slider/placeholder.png"
+                                                    alt="Placeholder"
+                                                />
+                                                <h1>LMS SMARTEDU</h1>
+                                                <p>
+                                                    SmartEdu - hệ thống quản lý
+                                                    đào tạo trực tuyến thế hệ
+                                                    mới do Viện Quản trị và Tài
+                                                    chính (IFA) phát triển. Học
+                                                    viện được trải nghiệm công
+                                                    nghệ 4.0, giáo trình chuẩn
+                                                    đầu ra quốc tết cùng cộng
+                                                    đồng học tạp trực tuyến lần
+                                                    đầu có mặt tại Việt Nam.
+                                                </p>
+                                                <div class="slider_button">
+                                                    <div
+                                                        class="slider_button_wrapper"
+                                                    >
+                                                        <button
+                                                            class="slider_btn"
+                                                        >
+                                                            Đăng ký tư vấn
+                                                            <div
+                                                                class="slider_icons"
+                                                            >
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 25 25"
+                                                                >
+                                                                    <path
+                                                                        style="
+                                                                            fill: rgb(
+                                                                                14,
+                                                                                85,
+                                                                                77
+                                                                            );
+                                                                        "
+                                                                        d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
+                                                                        data-name="Right"
+                                                                    />
+                                                                </svg>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                    <div
+                                                        class="slider_button_wrapper"
+                                                    >
+                                                        <button
+                                                            class="slider_btn"
+                                                        >
+                                                            Xem chi tiết
+                                                            <div
+                                                                class="slider_icons"
+                                                            >
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                    width="24"
+                                                                    height="24"
+                                                                    viewBox="0 0 24 24"
+                                                                >
+                                                                    <image
+                                                                        id="Vector_Smart_Object"
+                                                                        data-name="Vector Smart Object"
+                                                                        width="24"
+                                                                        height="24"
+                                                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAB5UlEQVRIibXWP2sUURQF8N8OSxoF01iksdDCLCqCn8DGQhERA2lSC4aENKJCrE0hCCKKglraCBEDogiCfgKbKEmjhU0KGwttUrjyljvLML7ZnSx6YIrZuffc+867f7ZzYP6CEehhASfQwW6YTqGPTTzDVhNFt+H3WazhB17gSRBWkQIexzVMYxXbbQIs4mwE2BlxuvIE6ZnBbbzGo6pRUXO6hcNYGUNex074HAmObIDF0PZ+Ro426Idv4rhSDzAbsjyYgLiOxHEuOIcB1uLJZZ60fYuLcbHj0K/wDQL0olpymu/HPI7iLtZxskWQneDsFVHn6w2G9SI4hZe4g4NjgqTyXiiiiT63yKpEkmkOHyqFkcOnxF2EwyRVsw838A5nMt8TZ6eotP+kOITHOJ/x361r/M9RjNCwLb7hMl5l7Ke6pVYT3MOv6NynDTIPOIsYVsf2QNyPsj6NhyPuME3azSLm+VyD0e/a+8fo6Kv4PiaRS4m7G8tiOkZuvZt/4nl0b8p2o6WUM8G5Ve6D1Zg5KxmC6y0Iq+gE38CvLNO0id5gaY9kOSzF4tlWmzXlhS23nJq5zJeDY7jV6o12E19xL3Rsi2SbfL4ExxC5nZxO8r629NPgalr6qVrShSbN/1r6//dvC/4AyaRsf1x5ldYAAAAASUVORK5CYII="
+                                                                    />
+                                                                </svg>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="carousel-item"
+                                    data-bs-interval="4000"
+                                >
+                                    <img
+                                        className="d-block w-100"
+                                        src="./assets/image/home/slider/image_2.png"
+                                        alt="First slide"
+                                    />
+                                    <div
+                                        class="carousel-caption d-none d-md-block"
+                                    >
+                                        <div class="container">
+                                            <div class="silder_content">
+                                                <img
+                                                    src="./assets/image/home/slider/placeholder.png"
+                                                    alt="Placeholder"
+                                                />
+                                                <h1>LMS SMARTEDU</h1>
+                                                <p>
+                                                    SmartEdu - hệ thống quản lý
+                                                    đào tạo trực tuyến thế hệ
+                                                    mới do Viện Quản trị và Tài
+                                                    chính (IFA) phát triển. Học
+                                                    viện được trải nghiệm công
+                                                    nghệ 4.0, giáo trình chuẩn
+                                                    đầu ra quốc tết cùng cộng
+                                                    đồng học tạp trực tuyến lần
+                                                    đầu có mặt tại Việt Nam.
+                                                </p>
+                                                <div class="slider_button">
+                                                    <div
+                                                        class="slider_button_wrapper"
+                                                    >
+                                                        <button
+                                                            class="slider_btn"
+                                                        >
+                                                            Đăng ký tư vấn
+                                                            <div
+                                                                class="slider_icons"
+                                                            >
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 25 25"
+                                                                >
+                                                                    <path
+                                                                        style="
+                                                                            fill: rgb(
+                                                                                14,
+                                                                                85,
+                                                                                77
+                                                                            );
+                                                                        "
+                                                                        d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
+                                                                        data-name="Right"
+                                                                    />
+                                                                </svg>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                    <div
+                                                        class="slider_button_wrapper"
+                                                    >
+                                                        <button
+                                                            class="slider_btn"
+                                                        >
+                                                            Xem chi tiết
+                                                            <div
+                                                                class="slider_icons"
+                                                            >
+                                                                <svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                    width="24"
+                                                                    height="24"
+                                                                    viewBox="0 0 24 24"
+                                                                >
+                                                                    <image
+                                                                        id="Vector_Smart_Object"
+                                                                        data-name="Vector Smart Object"
+                                                                        width="24"
+                                                                        height="24"
+                                                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAB5UlEQVRIibXWP2sUURQF8N8OSxoF01iksdDCLCqCn8DGQhERA2lSC4aENKJCrE0hCCKKglraCBEDogiCfgKbKEmjhU0KGwttUrjyljvLML7ZnSx6YIrZuffc+867f7ZzYP6CEehhASfQwW6YTqGPTTzDVhNFt+H3WazhB17gSRBWkQIexzVMYxXbbQIs4mwE2BlxuvIE6ZnBbbzGo6pRUXO6hcNYGUNex074HAmObIDF0PZ+Ro426Idv4rhSDzAbsjyYgLiOxHEuOIcB1uLJZZ60fYuLcbHj0K/wDQL0olpymu/HPI7iLtZxskWQneDsFVHn6w2G9SI4hZe4g4NjgqTyXiiiiT63yKpEkmkOHyqFkcOnxF2EwyRVsw838A5nMt8TZ6eotP+kOITHOJ/x361r/M9RjNCwLb7hMl5l7Ke6pVYT3MOv6NynDTIPOIsYVsf2QNyPsj6NhyPuME3azSLm+VyD0e/a+8fo6Kv4PiaRS4m7G8tiOkZuvZt/4nl0b8p2o6WUM8G5Ve6D1Zg5KxmC6y0Iq+gE38CvLNO0id5gaY9kOSzF4tlWmzXlhS23nJq5zJeDY7jV6o12E19xL3Rsi2SbfL4ExxC5nZxO8r629NPgalr6qVrShSbN/1r6//dvC/4AyaRsf1x5ldYAAAAASUVORK5CYII="
+                                                                    />
+                                                                </svg>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button
+                                class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="prev"
+                            >
+                                <span
+                                    class="carousel-control-prev-icon"
+                                    aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button
+                                class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="next"
+                            >
+                                <span
+                                    class="carousel-control-next-icon"
+                                    aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Breadcrumb -->
+                    <div class="breadcrumb">
+                        <div class="container">
+                            <nav
+                                style="--bs-breadcrumb-divider: '>'"
+                                aria-label="breadcrumb"
+                            >
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        <a href="#">Trang chủ</a>
+                                    </li>
+                                    <li
+                                        class="breadcrumb-item active"
+                                        aria-current="page"
+                                    >
+                                        Giới thiệu
+                                    </li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- section 1 -->
+                    <section class="section section_1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div
+                                        class="section_title"
+                                        data-aos="fade-down-right"
+                                    >
+                                        <h1>
+                                            <span>Thông Điêp</span><br />của
+                                            chúng tôi
+                                        </h1>
+                                        <div class="section_line"></div>
+                                        <p class="section-text">
+                                            Sứ mệnh đưa Việt Nam từ một đất nước
+                                            rất nghèo trở thành quốc gia có thu
+                                            nhập trung bình đã hoàn tất trong
+                                            khoảng gần hai thập niên. Cũng trong
+                                            khoảng thời gian đó, chúng ta chứng
+                                            kiến nhiều cuộc lột xác ngoạn mục từ
+                                            nông nghiệp, công nghiệp, xây dựng,
+                                            hạ tầng, đầu tư, v.v... cho đến các
+                                            chính sách điều hành vĩ mô. Tuy
+                                            nhiên, một sự chuyển đổi khác của
+                                            Việt Nam – trở thành một nền kinh tế
+                                            công nghiệp, hiện đại
+                                        </p>
+                                        <button
+                                            class="section_btn btn_wrapper bg-red"
+                                        >
+                                            Xem thêm
+                                            <div class="section_icons">
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 25 25"
+                                                >
+                                                    <path
+                                                        style="
+                                                            fill: rgb(
+                                                                204,
+                                                                33,
+                                                                40
+                                                            );
+                                                        "
+                                                        d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
+                                                        data-name="Right"
+                                                    />
+                                                </svg>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="section_img d-block d-lg-none">
+                                        <img
+                                            src="./assets/image/introduce/section_1.png"
+                                            alt="Section Image"
+                                            class="section_img_i"
+                                            data-aos="fade-left"
+                                        />
+
+                                        <img
+                                            src="./assets/image/introduce/map.png"
+                                            alt="bản đồ viêt nam"
+                                            class="section_img_map"
+                                            data-aos="section_1_img_map"
+                                            data-aos-delay="500"
+                                        />
+                                        <img
+                                            src="./assets/image/introduce/title_img.png"
+                                            alt="bản đồ viêt nam"
+                                            class="section_img_title"
+                                            data-aos="section_1_img_title"
+                                            data-aos-delay="500"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section_img d-none d-lg-block">
+                            <img
+                                src="./assets/image/introduce/section_1.png"
+                                alt="Section Image"
+                                class="section_img_i"
+                                data-aos="fade-left"
+                            />
+
+                            <img
+                                src="./assets/image/introduce/map.png"
+                                alt="bản đồ viêt nam"
+                                class="section_img_map"
+                                data-aos="section_1_img_map"
+                                data-aos-delay="500"
+                            />
+                            <img
+                                src="./assets/image/introduce/title_img.png"
+                                alt="bản đồ viêt nam"
+                                class="section_img_title"
+                                data-aos="section_1_img_title"
+                                data-aos-delay="500"
+                            />
+                        </div>
+                    </section>
+
+                    <!-- section 2 -->
+                    <section class="section section_2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="section_img d-block d-lg-none">
+                                        <img
+                                            src="./assets/image/introduce/section_2.png"
+                                            alt="Section Image"
+                                            class="section_img_i"
+                                            data-aos="fade-up-right"
+                                        />
+                                        <img
+                                            src="./assets/image/introduce/section_2_1.png"
+                                            alt="bản đồ viêt nam"
+                                            class="section_img_2"
+                                            data-aos="section_img_2"
+                                            data-aos-delay="500"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div
+                                        class="section_title"
+                                        data-aos="fade-up-left"
+                                    >
+                                        <h1>
+                                            <span>Triết Lý</span><br />tầm nhìn
+                                        </h1>
+                                        <div class="section_line"></div>
+                                        <p class="section-text">
+                                            Với triết lý "Nâng Tầm Tri Thức Vì
+                                            Một Việt Nam Thịnh Vượng", Học viện
+                                            lãnh đạo IFA được thành lập từ năm
+                                            2006 từ tâm huyết của những nhà
+                                            giáo, nhà nghiên cứu khoa học và
+                                            doanh nhân, với một đội ngũ quản lý
+                                            trẻ năng động, IFA là sự kết hợp hài
+                                            hòa giữa kiến thức học thuật chuyên
+                                            sâu và kỹ năng thực tế thời thượng.
+                                            IFA mang đến cho người học những
+                                            chương trình đào tạo tốt nhất. Với
+                                            phương châm đào tạo là B.E.S.T,
+                                            thông qua
+                                        </p>
+                                        <button
+                                            class="section_btn btn_wrapper bg-red"
+                                        >
+                                            Xem thêm
+                                            <div class="section_icons">
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 25 25"
+                                                >
+                                                    <path
+                                                        style="
+                                                            fill: rgb(
+                                                                204,
+                                                                33,
+                                                                40
+                                                            );
+                                                        "
+                                                        d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
+                                                        data-name="Right"
+                                                    />
+                                                </svg>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section_img d-none d-lg-block">
+                            <img
+                                src="./assets/image/introduce/section_2.png"
+                                alt="Section Image"
+                                class="section_img_i"
+                                data-aos="fade-up-right"
+                            />
+                            <img
+                                src="./assets/image/introduce/section_2_1.png"
+                                alt="bản đồ viêt nam"
+                                class="section_img_2"
+                                data-aos="section_img_2"
+                                data-aos-delay="500"
+                            />
+                        </div>
+                    </section>
+
+                    <!-- section 3 -->
+                    <section class="section section_1 section_3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div
+                                        class="section_title"
+                                        data-aos="zoom-in"
+                                    >
+                                        <h1><span>Quy trình </span>đào tạo</h1>
+                                        <div class="section_line"></div>
+                                        <p class="section-text">
+                                            Mội chương trình đào tạo được thiết
+                                            kế và cung cấp bởi Viện IFA đều được
+                                            thông qua các bước thiết lập quy
+                                            trình đào tạo do Viện IFA xây dựng
+                                            và phát triển trong gần 10 năm hoạt
+                                            động của Viện IFA. Chúng tôi cam kết
+                                            chất lượng đào tạo thông qua quy
+                                            trình - giảng viên - chuyên gia và
+                                            những dịch vụ đào tạo kèm theo.
+                                            Ngoai ra, Viện IFA có chính sách
+                                            "bảo hành" sau đào tạo, mỗi học viên
+                                            sau khi học tập tại Viện IFA sẽ luôn
+                                            được quan tâm, chăm sóc và duy trì
+                                            quan hệ với Viện IFA nhằm nhận được
+                                            sự tư vấn miễn phí và hỗ trợ trong
+                                            công việc hàng ngày....
+                                        </p>
+                                        <button
+                                            class="section_btn btn_wrapper bg-red"
+                                        >
+                                            Xem thêm
+                                            <div class="section_icons">
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 25 25"
+                                                >
+                                                    <path
+                                                        style="
+                                                            fill: rgb(
+                                                                204,
+                                                                33,
+                                                                40
+                                                            );
+                                                        "
+                                                        d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
+                                                        data-name="Right"
+                                                    />
+                                                </svg>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div
+                                        class="section_img d-block d-lg-none"
+                                        data-aos="fade-left"
+                                        data-aos-easing="linear"
+                                    >
+                                        <img
+                                            src="./assets/image/introduce/section_3_2.png"
+                                            alt="Section Image"
+                                            class="section_img_i"
+                                        />
+                                        <!-- <img
+                                src="./assets/image/introduce/section_3_1.png"
+                                alt="bản đồ viêt nam"
+                                class="section_img_2"
+                            />
+                            -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="section_img d-none d-lg-block"
+                            data-aos="fade-left"
+                            data-aos-easing="linear"
+                        >
+                            <img
+                                src="./assets/image/introduce/section_3_2.png"
+                                alt="Section Image"
+                                class="section_img_i"
+                            />
+                            <!-- <img
+                                src="./assets/image/introduce/section_3_1.png"
+                                alt="bản đồ viêt nam"
+                                class="section_img_2"
+                            />
+                            -->
+                        </div>
+                    </section>
+
+                    <!-- section 4 -->
+                    <section class="section section_2 section_4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div
+                                        class="section_img d-block d-lg-none"
+                                        data-aos="fade-up-right"
+                                    >
+                                        <img
+                                            src="./assets/image/introduce/section_4_2.png"
+                                            alt="Section Image"
+                                            class="section_img_i"
+                                        />
+                                        <!-- <img
+                                src="./assets/image/introduce/IFA-Web-GioiThieu1_1.png"
+                                alt="bản đồ viêt nam"
+                                class="section_img_2"
+                            /> -->
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div
+                                        class="section_title"
+                                        data-aos="fade-left"
+                                        data-aos-delay="500"
+                                    >
+                                        <h1><span>Hợp tác </span>quốc tế</h1>
+                                        <div class="section_line"></div>
+                                        <p class="section-text">
+                                            Viện Quản trị và Tài chính (Viện
+                                            IFA) có mối quan hệ hợp tác chặt chẽ
+                                            với các Tổ chức Giáo dục, cá Trường
+                                            ĐH Nước ngoài nhằm mang đến những
+                                            chương trình đào tạo chất lượng cao
+                                            và tiêu chuẩn Quốc tế. Thông qua
+                                            hoạt động hợp tác Quốc tế, tất cả
+                                            các chương trình đào tạo của Viện
+                                            IFA sẽ được chuẩn nhận (accredited)
+                                            bởi Tổ chức giáo dục nước ngoài.
+                                        </p>
+                                        <button
+                                            class="section_btn btn_wrapper bg-red"
+                                        >
+                                            Xem thêm
+                                            <div class="section_icons">
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 25 25"
+                                                >
+                                                    <path
+                                                        style="
+                                                            fill: rgb(
+                                                                204,
+                                                                33,
+                                                                40
+                                                            );
+                                                        "
+                                                        d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
+                                                        data-name="Right"
+                                                    />
+                                                </svg>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="section_img d-none d-lg-block"
+                            data-aos="fade-up-right"
+                        >
+                            <img
+                                src="./assets/image/introduce/section_4_2.png"
+                                alt="Section Image"
+                                class="section_img_i"
+                            />
+                            <!-- <img
+                                src="./assets/image/introduce/IFA-Web-GioiThieu1_1.png"
+                                alt="bản đồ viêt nam"
+                                class="section_img_2"
+                            /> -->
+                        </div>
+                    </section>
+
+                    <!-- section 5 -->
+                    <section class="worksapce">
+                        <div class="container">
+                            <div class="row gx-5">
+                                <div
+                                    class="col-12 col-md-5 pe-5 worksapce_text"
+                                    data-aos="fade-down"
+                                    data-aos-delay="500"
+                                >
+                                    <h1>
+                                        ifa - cung cấp giải pháp <br />
+                                        <span>đào tạo toàn diện 4.0</span>
+                                    </h1>
+                                    <p>
+                                        Biến đào tạo thành vũ khí cạnh tranh đắc
+                                        lực cho doanh nghiệp thời 4.0
+                                    </p>
+                                    <div class="workspace_btn d-flex">
+                                        <button class="btn_wrapper bg-red me-5">
+                                            Xem hồ sơ
+                                        </button>
+                                        <button class="btn_border btn_wrapper">
+                                            Tải PDF
+                                        </button>
+                                    </div>
+                                </div>
+                                <div
+                                    class="col-12 col-md-7 workspace_img"
+                                    data-aos="zoom-in-up"
+                                >
+                                    <img
+                                        src="./assets/image/introduce/WORKSPACE.png"
+                                        alt="Workspace"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Banner -->
+                    <div class="banner" data-aos="flip-up">
+                        <img
+                            src="./assets/image/home/banner.png"
+                            alt="Banner IFA"
+                        />
+                        <div class="banner_wrapper">
+                            <div class="banner_wrapper_container">
+                                <div class="container">
+                                    <div
+                                        class="d-flex align-items-center justify-content-between pe-5"
+                                    >
+                                        <div>
+                                            <h1>BẠN ĐÃ SẴN SÀNG</h1>
+                                            <p>KHAI PHÁ TRI THỨC</p>
+                                        </div>
+                                        <button class="text-red btn btn-light">
+                                            ĐĂNG KÝ NGAY
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Footer -->
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-xs-3 col-lg-4">
+                            <img src="./assets/image/logo.png" alt="Logo IFA" />
+                            <h2>
+                                Sứ mệnh đưa Việt Nam từ một đất nước rất nghèo
+                                trở thành quốc gia có thu nhập trung bình trong
+                                khoảng hai thập niên
+                            </h2>
+                        </div>
+                        <div class="col-4 col-xs-3 col-lg-2">
+                            <div class="footer_about ps-4">
+                                <p>Công ty</p>
+                                <ul class="footer_about_list ps-0">
+                                    <li class="footer_about_item">
+                                        <a href="#" class="footer_about_link">
+                                            Giới thiệu
+                                        </a>
+                                    </li>
+                                    <li class="footer_about_item">
+                                        <a href="#" class="footer_about_link">
+                                            Thông tin
+                                        </a>
+                                    </li>
+                                    <li class="footer_about_item">
+                                        <a href="#" class="footer_about_link">
+                                            Triết lý
+                                        </a>
+                                    </li>
+                                    <li class="footer_about_item">
+                                        <a href="#" class="footer_about_link">
+                                            Đào tạo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-4 col-xs-3 col-lg-2">
+                            <div class="footer_about">
+                                <p>Dịch vụ</p>
+                                <ul class="footer_about_list ps-0">
+                                    <li class="footer_about_item">
+                                        <a href="#" class="footer_about_link">
+                                            Đào tạo Inhouse
+                                        </a>
+                                    </li>
+                                    <li class="footer_about_item">
+                                        <a href="#" class="footer_about_link">
+                                            Đào tạo trực tuyến
+                                        </a>
+                                    </li>
+                                    <li class="footer_about_item">
+                                        <a href="#" class="footer_about_link">
+                                            Hợp tác quốc tế
+                                        </a>
+                                    </li>
+                                    <li class="footer_about_item">
+                                        <a href="#" class="footer_about_link">
+                                            Tư vấn doanh nghiệp
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-4 d-block d-sm-none"></div>
+                        <div class="col-4 col-xs-3 col-lg-4">
+                            <div class="footer_about">
+                                <p class="ps-4">Liên hệ</p>
+                                <h2 class="ps-4">
+                                    Trụ sở: 60 Nguyễn Văn Thủ, Phường Đakao,
+                                    Quận 1, TP.HCM
+                                </h2>
+                                <div class="d-flex align-items-center ps-4">
+                                    <div class="opacity-50">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                d="M21.384,17.752a2.108,2.108,0,0,1-.522,3.359,7.543,7.543,0,0,1-5.476.642C10.5,20.523,3.477,13.5,2.247,8.614a7.543,7.543,0,0,1,.642-5.476,2.108,2.108,0,0,1,3.359-.522L8.333,4.7a2.094,2.094,0,0,1,.445,2.328A3.877,3.877,0,0,1,8,8.2c-2.384,2.384,5.417,10.185,7.8,7.8a3.877,3.877,0,0,1,1.173-.781,2.092,2.092,0,0,1,2.328.445Z"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <h2 class="px-4">028 6681 4320</h2>
+                                </div>
+                                <div class="d-flex align-items-center ps-4">
+                                    <div class="opacity-50">
+                                        <svg
+                                            id="_1-Email"
+                                            data-name="1-Email"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 32 32"
+                                        >
+                                            <title>1-Email</title>
+                                            <path
+                                                d="M29,4H3A3,3,0,0,0,0,7V25a3,3,0,0,0,3,3H29a3,3,0,0,0,3-3V7A3,3,0,0,0,29,4Zm-.72,2L16,14.77,3.72,6ZM30,25a1,1,0,0,1-1,1H3a1,1,0,0,1-1-1V7.23l13.42,9.58a1,1,0,0,0,1.16,0L30,7.23Z"
+                                            />
+                                        </svg>
+                                    </div>
+                                    <h2 class="px-4">training@ifa.edu.vn</h2>
+                                </div>
+                                <div class="d-flex align-items-center ps-4">
+                                    <a href="/" class="icons_app_svg me-3">
+                                        <svg
+                                            version="1.1"
+                                            id="Capa_1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            x="0px"
+                                            y="0px"
+                                            viewBox="0 0 48.605 48.605"
+                                            style="
+                                                enable-background: new 0 0
+                                                    48.605 48.605;
+                                            "
+                                            xml:space="preserve"
+                                        >
+                                            <g>
+                                                <path
+                                                    d="M34.094,8.688h4.756V0.005h-8.643c-0.721-0.03-9.51-0.198-11.788,8.489c-0.033,0.091-0.761,2.157-0.761,6.983l-7.903,0.024
+            v9.107l7.913-0.023v24.021h12.087v-24h8v-9.131h-8v-2.873C29.755,10.816,30.508,8.688,34.094,8.688z M35.755,17.474v5.131h-8v24
+            h-8.087V22.579l-7.913,0.023v-5.107l7.934-0.023l-0.021-1.017c-0.104-5.112,0.625-7.262,0.658-7.365
+            c1.966-7.482,9.473-7.106,9.795-7.086l6.729,0.002v4.683h-2.756c-4.673,0-6.338,3.054-6.338,5.912v4.873L35.755,17.474
+            L35.755,17.474z"
+                                                />
+                                            </g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                            <g></g>
+                                        </svg>
+                                    </a>
+                                    <a href="/" class="icons_app_svg me-3">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            width="20"
+                                            height="14"
+                                            viewBox="0 0 20 14"
+                                        >
+                                            <image
+                                                id="Vector_Smart_Object"
+                                                data-name="Vector Smart Object"
+                                                width="20"
+                                                height="14"
+                                                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAA1ElEQVQ4ja2TMQoCMRBFn8EbaC2sFsJ26bay9QJ7Cg9gIQqCdmIt3sHGW9itVSolhW1EO7GTkQgiaHbdffXMm2SYXwPIorgJzIEUaFCMM7ABxtoaV/OyHdApKPrkCCTKv6ysDO+YKf/NqkhVYGdbYACccg5sqkDBXluzArrAELiGjCHhE23NTVuzANrAEriXEr6JL/5EDt9q6nllWRQnwBTo/6oLCVtZFPeAUUj0Qg7b/ZGObzjZoeykKjYiHPvYlEUcEyWBlgwCax/0okiP9CbaGvcARFUzEz1jWwgAAAAASUVORK5CYII="
+                                            />
+                                        </svg>
+                                    </a>
+                                    <a href="/" class="icons_app_svg me-3">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            width="26"
+                                            height="11"
+                                            viewBox="0 0 26 11"
+                                        >
+                                            <image
+                                                id="Vector_Smart_Object"
+                                                data-name="Vector Smart Object"
+                                                width="26"
+                                                height="11"
+                                                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAALCAYAAABhwJ3wAAABuUlEQVQ4jY2TTUiWQRSFH7/sBwmlFkLtZmMwSDQLaRUmoptAF60khMDEaGGbpE2SYqsW4U/LBEEw1wamhtgyBJmCHAiiIZAWRdBOijK5cITXF7+vDgxz78yZuXPvPVMXnW8EWoETHMa3kNM2NRCdbwISsBNyulyLWw+sAUeSovN3Q07TNc474LxGTVigVeAMcFJEsxtlf/3XBf+LulIGVoqol74GOvWYh8BN4CcwA1wB3gJL4hNysjbYfcPAINAMvAcmQk4b9aUHzSrId+BGyGkvOj8H9BU4TzRfVaAixoHRgt8BtEfnuyuFbG4D1+X2h5y+ROdbCkGmgB7gk/xKMYJENSJ3HrimbI03URHpEjAp0uOQ00vZByL5AdwLOb0AHlVpy0XgFPAHGAo5LQMPtNdWic6fBhYlhjeFTcMvzbu6gMJcRoP8PQ3D74PsrUdPgQtaWLHeROfN/gt81vo5YCw6vw7crxLI/pydOW59jM4vSESGLVOKRT1W5bCV0F5n9S7DytkOvDNHqnsGDBzB7bWMTCVd5eYqwHMpyz6tCcVKaaIw2W8CH4BXwEeduSPF3gLOSt5jIaelfcQkd8J/f4/XAAAAAElFTkSuQmCC"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 hot_line d-flex d-sm-none">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="35"
+                                height="35"
+                                viewBox="0 0 35 35"
+                            >
+                                <image
+                                    id="phone-call"
+                                    width="35"
+                                    height="35"
+                                    xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAEPUlEQVRYhbWYeYhWVRjGf+4J4YKBgyg2LuAojNOkkGJko2LuaLgkpiIyMUYuhCJof+nkiivkBi7jihqWqEOiZosLKg2RihQWKUKZohOZmlrxynOGw5l773e/z/H5557vPe899znvebfz1buQ34U6wofAQuA74ATwOXAhm6XrJ8zVy5JjQ+AFoDcwHzgPVAGTn4VMJ2A3cAe4BExNudYSoA0wElgF3ASKgC3ARWBwpgXCY7KXz2iHPlYDM1OScrCNjpOVCiT7BHg/6QWHQuCciHwGdARGa24GsCZLMv8Cu4CuwBzJpgHfAE2TyHQVkUbAfpn6Z40HSucDmT8XLAOKgV+BPnLs0PpPyRjLb4Em+rizhsNRj5BZaEUMmVIdw1igRcR8lax/UZv/OorMXKAlcCqCiE9okMazFMIhFgFlwB457/IIUn8CrwE3gJ7AJn/SHPgq0AHoBZzNcARmoUqFfbF269ANGAYMAEokuw1MBI4E69j3rmrcHzjuLNNBwisZiBi+ABZrPCSYu6S5ftrYl0Ar4DDwbqBr/jhd4x1OaGSeaFzLoWJQJPHNBJ2zss7H+l0B9A101so6ecAkR8ZZpGMKIhXynWr5RibMA8qlY1Z9MdB31lngyLj60TMFETP3f8AbcsY0mK9E2lhO7cN86XegHfCqkTmkyfExCzdSeTAiDxUN36ck4uB85j2gWTC3xX3fyBz0LNM+YqF2SutO51yWRJBvnNF4TDB3TM/+RuYfYKsEc6gNywnXJG2TAxGHfXpOCOQunRS6QtkZ+FFCc7J7wQuDFaIPFK5/50DmZZ3CPuewHszRm/hV+6gS1joVtBDHFa4nlEvqHH7VdqXdUnqU77wty5Sod3muZH4CNmr8aYTuXVkO+dasuibToLTlS/7vSjVR+bLCqUD/mlL5SNWp6gz1rLGix1rR+8AfSWTCttNKwwiNF8ckwu2eT61UtY5CoYLCGqwNql1R0RpLxnDS8wlz2uYROubkUzSeq8TZ2psvUmZvrzU2S75EGTkSSVcVi5o3gR+0yygMUEPWTMcwUd3cad0Wdnp5ZZKXzz6K6omSyDSUmfPVCb4eo5cnxx8WyHdHlJjxIogsVO5PJt2bHqsO3VbfejJG7zdguELfdQDbYmrdLs9SC3XENUhzo8zXhayVbosliqIk/V8yrDlBgWAYquyeaBkHW/gVPYvVUCe1G5mIoO6uTGPXOaYiY7guJ/4KaKvKPSPlu3FYL3lNU5eWjOEvtY7uMrdKSbIgw3txcJ1iZS5kHMwio4BbwFvAZWCpfCottut+9cgvK7mQMRyQeV0tm62oKk/RS1fIgZ/oFuF6pVq1KRs8VOatVPYtUC6aLkdvrg9Wa9PddcTvqI/uoeisQV3+WWS7tJoVdnIGI9VAY2vM7OLm2tAa5HpMUbDFrfE2K9l/Onu9W6MRseOwCLKushYRgP8BK27pxLMMLHwAAAAASUVORK5CYII="
+                                />
+                            </svg>
+                            <div class="hot_line_text ps-4">
+                                <h3>Hot line: Hỗ trợ 24/7</h3>
+                                <span class="text-bold">0942 99 39 49</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hot_line d-none d-sm-flex align-items-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="35"
+                            height="35"
+                            viewBox="0 0 35 35"
+                        >
+                            <image
+                                id="phone-call"
+                                width="35"
+                                height="35"
+                                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAEPUlEQVRYhbWYeYhWVRjGf+4J4YKBgyg2LuAojNOkkGJko2LuaLgkpiIyMUYuhCJof+nkiivkBi7jihqWqEOiZosLKg2RihQWKUKZohOZmlrxynOGw5l773e/z/H5557vPe899znvebfz1buQ34U6wofAQuA74ATwOXAhm6XrJ8zVy5JjQ+AFoDcwHzgPVAGTn4VMJ2A3cAe4BExNudYSoA0wElgF3ASKgC3ARWBwpgXCY7KXz2iHPlYDM1OScrCNjpOVCiT7BHg/6QWHQuCciHwGdARGa24GsCZLMv8Cu4CuwBzJpgHfAE2TyHQVkUbAfpn6Z40HSucDmT8XLAOKgV+BPnLs0PpPyRjLb4Em+rizhsNRj5BZaEUMmVIdw1igRcR8lax/UZv/OorMXKAlcCqCiE9okMazFMIhFgFlwB457/IIUn8CrwE3gJ7AJn/SHPgq0AHoBZzNcARmoUqFfbF269ANGAYMAEokuw1MBI4E69j3rmrcHzjuLNNBwisZiBi+ABZrPCSYu6S5ftrYl0Ar4DDwbqBr/jhd4x1OaGSeaFzLoWJQJPHNBJ2zss7H+l0B9A101so6ecAkR8ZZpGMKIhXynWr5RibMA8qlY1Z9MdB31lngyLj60TMFETP3f8AbcsY0mK9E2lhO7cN86XegHfCqkTmkyfExCzdSeTAiDxUN36ck4uB85j2gWTC3xX3fyBz0LNM+YqF2SutO51yWRJBvnNF4TDB3TM/+RuYfYKsEc6gNywnXJG2TAxGHfXpOCOQunRS6QtkZ+FFCc7J7wQuDFaIPFK5/50DmZZ3CPuewHszRm/hV+6gS1joVtBDHFa4nlEvqHH7VdqXdUnqU77wty5Sod3muZH4CNmr8aYTuXVkO+dasuibToLTlS/7vSjVR+bLCqUD/mlL5SNWp6gz1rLGix1rR+8AfSWTCttNKwwiNF8ckwu2eT61UtY5CoYLCGqwNql1R0RpLxnDS8wlz2uYROubkUzSeq8TZ2psvUmZvrzU2S75EGTkSSVcVi5o3gR+0yygMUEPWTMcwUd3cad0Wdnp5ZZKXzz6K6omSyDSUmfPVCb4eo5cnxx8WyHdHlJjxIogsVO5PJt2bHqsO3VbfejJG7zdguELfdQDbYmrdLs9SC3XENUhzo8zXhayVbosliqIk/V8yrDlBgWAYquyeaBkHW/gVPYvVUCe1G5mIoO6uTGPXOaYiY7guJ/4KaKvKPSPlu3FYL3lNU5eWjOEvtY7uMrdKSbIgw3txcJ1iZS5kHMwio4BbwFvAZWCpfCottut+9cgvK7mQMRyQeV0tm62oKk/RS1fIgZ/oFuF6pVq1KRs8VOatVPYtUC6aLkdvrg9Wa9PddcTvqI/uoeisQV3+WWS7tJoVdnIGI9VAY2vM7OLm2tAa5HpMUbDFrfE2K9l/Onu9W6MRseOwCLKushYRgP8BK27pxLMMLHwAAAAASUVORK5CYII="
+                            />
+                        </svg>
+                        <div class="hot_line_text ps-4">
+                            <h3>Hot line: Hỗ trợ 24/7</h3>
+                            <span class="text-bold">0942 99 39 49</span>
+                        </div>
+                    </div>
+                    <div class="copyrighth pt-5">
+                        <h4>Copyright © 2022 IFA. All Rights Reserved.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- js bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                easing: "ease",
+                once: true,
+                mirror: false,
+            });
+        </script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,159 @@
+#footer {
+  padding-top: 28px;
+}
+
+#footer p,
+#footer h3 {
+  font-size: 1.6rem;
+  color: #131414;
+  font-weight: bold;
+  padding-top: 30px;
+  line-height: 1.6;
+}
+
+#footer .footer_about_item {
+  padding: 6px 0;
+}
+
+#footer .footer_about_link,
+#footer h2,
+#footer span {
+  font-size: 1.6rem;
+  color: #818282;
+  line-height: 1.6;
+  text-decoration: none;
+  width: 75%;
+  padding-top: 8px;
+}
+
+#footer h3 {
+  padding: 0;
+  line-height: 1.6;
+}
+
+#footer .footer_about_link {
+  font-weight: 500;
+}
+
+#footer .footer_about_link:hover {
+  text-decoration: underline;
+}
+
+#footer span {
+  font-weight: bold;
+  padding-top: 0;
+}
+
+#footer .hot_line {
+  padding-top: 56px;
+}
+
+#footer .footer_about h2 {
+  width: 120%;
+}
+
+#footer .footer_about_text {
+  padding: 0 12px;
+}
+
+#footer .footer_about .icons_app_svg {
+  width: 20px;
+  fill: #cc2128;
+}
+
+#footer .footer_about svg {
+  width: 20px;
+}
+
+#footer h4 {
+  font-size: 1.6rem;
+  color: #818282;
+  font-style: italic;
+  font-weight: none;
+  line-height: 3.25;
+}
+
+@media (max-width: 1399px) {
+  #footer .footer_about_link,
+  #footer h2,
+  #footer span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  #footer .footer_about_link,
+  #footer h2,
+  #footer span {
+    font-size: 1.4rem;
+  }
+  #footer .footer_about h2 {
+    width: 130%;
+  }
+}
+
+@media (max-width: 991px) {
+  #footer .footer_about_link,
+  #footer h2,
+  #footer span {
+    font-size: 1.2rem;
+  }
+  #footer h2 {
+    width: 100%;
+  }
+  #footer .footer_logo img {
+    margin: auto;
+  }
+  #footer .footer_logo h2 {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+  }
+  #footer .hot_line {
+    padding-top: 30px;
+  }
+  #footer h4 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  #footer .footer_about h2 {
+    width: 150%;
+  }
+  #footer .footer_about_text {
+    padding: 0 8px;
+  }
+  #footer .footer_about .footer_about_phone {
+    padding: 0 2px;
+  }
+  #footer .footer_about svg {
+    width: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  #footer .hot_line {
+    padding-top: 16px;
+  }
+  #footer .hot_line svg {
+    width: 20px;
+  }
+  #footer .hot_line_text h3 {
+    font-size: 1.2rem;
+  }
+  #footer .footer_logo img {
+    width: 40%;
+  }
+  #footer .footer_about h2 {
+    width: 100%;
+  }
+  #footer .footer_about_text {
+    padding: 0 4px;
+    font-size: 1rem;
+  }
+  #footer .footer_about svg {
+    width: 12px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
